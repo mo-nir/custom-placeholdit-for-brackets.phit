@@ -1,0 +1,38 @@
+<div class="template modal hide">
+	<div class="modal-header">
+		<h1 class="dialog-title">Insert custom Placehold.it image</h1>
+	</div>
+	<div class="modal-body">
+
+		<p>Insert dimension. If left blank values or insert incorrect characters, random values are generated. If only specifies the width, a square image is created.</p>
+		<p>
+			&rarr; Width
+			<input name="ancho" type="text" maxlength="6" />&nbsp;&nbsp;&nbsp;
+			&uarr; Height
+			<input name="alto" type="text" maxlength="6" />
+		</p>
+
+		<p>Text (optional)
+			<input name="texto" type="text" />
+		</p>
+
+		<p>Color (optional)</p>
+		<p>
+			<select id="color">
+				<option value="default" selected="true" style="color:#777777">Grey (default)</option>
+				<option value="FFFFFF">White</option>
+				<option value="000000">Black</option>
+				<option value="FF0000" style="color:#FF0000">Red</option>
+				<option value="00FF00" style="color:#00FF00">Green</option>
+				<option value="0000FF" style="color:#0000FF">Blue</option>
+			</select>
+		</p>
+		
+		<div id="visual"></div>
+
+	</div>
+	<div class="modal-footer">
+		<a class="dialog-button btn" data-button-id="cancel" href="#">Cancel</a>
+		<a id="okph" href="#" class="dialog-button btn primary" data-button-id="ok">Insert</a>
+	</div>
+</div>
