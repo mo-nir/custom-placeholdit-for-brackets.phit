@@ -1,0 +1,9 @@
+{
+    "name": "custom-placeholdit-for-brackets-jara.phit",
+    "title": "Custom Placehold.it image for Brackets",
+    "homepage": "https://github.com/jspartak/custom-placeholdit-for-brackets-jara.phit/",
+    "author": "Juanan",
+    "version": "0.1",
+    "engines": { "brackets": ">=0.36" },
+    "description": "Add a custom placehold.it image tag. Fork from 'placeholdit-for-brackets' by Enton Biba. Credits: http://placehold.it/ & http://www.entonbiba.com/"
+}
