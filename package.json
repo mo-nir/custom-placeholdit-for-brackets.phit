@@ -1,7 +1,7 @@
 {
     "name": "custom-placeholdit-for-brackets-jara.phit",
     "title": "Custom Placehold.it image for Brackets",
-    "homepage": "https://github.com/jspartak/custom-placeholdit-for-brackets-jara.phit/",
+    "homepage": "https://github.com/jspartak/custom-placeholdit-for-brackets.phit/",
     "author": "Juanan",
     "version": "0.0.1",
     "engines": { "brackets": ">=0.36" },
