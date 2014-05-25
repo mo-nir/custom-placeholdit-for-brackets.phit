@@ -47,11 +47,11 @@ define(function(require, exports, module) {
 	function generarUrl() {
 		//dimensions
 		var anchoModal = $("input[name='ancho']").val();
-		if (!anchoModal || isNaN(anchoModal)) {
+		if (!anchoModal || isNaN(anchoModal) || anchoModal<=0 ) {
 			anchoModal = getIntAleatorio(400, 900);
 		}
 		var altoModal = $("input[name='alto']").val();
-		if (!altoModal || isNaN(altoModal)) {
+		if (!altoModal || isNaN(altoModal) || altoModal<=0 ) {
 			altoModal = getIntAleatorio(200, 500);
 		}
 		var dimensions = "";
