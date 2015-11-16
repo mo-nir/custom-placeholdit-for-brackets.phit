@@ -65,6 +65,10 @@ define(function(require, exports, module) {
 		if ($("input[name='texto']").val()) {
 			textoModal = "&text=" + textoModal;
 		}
+        var textoModalAlt = $("input[name='textoalt']").val().replace(' ', '+');
+		if ($("input[name='textoalt']").val()) {
+			textoModalAlt = "alt=\"" + textoModalAlt+"\"";
+		}
 		//color
 		var colorModal = $("#color").val();
 		var colorFinal = "";
@@ -73,7 +77,7 @@ define(function(require, exports, module) {
 		}
 		//final url
 		var url = "http://placehold.it/" + dimensions + colorFinal + textoModal;
-		var imgTag = '<img src="' + url + '">';
+		var imgTag = '<img '+ textoModalAlt +' src="' + url + '">';
 		//insert url in document
 		var editor = EditorManager.getCurrentFullEditor();
 		if (editor) {
